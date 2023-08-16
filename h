@@ -724,7 +724,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-g
     print("Clicked")
 end)
 
-Tab8Section:NewLabel(Welcome",game.Players.LocalPlayer.Name,"To Universal Shakars Hub!)
+Tab8Section:NewLabel("game.Players.LocalPlayer.Name,"To Universal Shakars Hub!")
 
 Tab8Section:NewLabel("game.Players.LocalPlayer.UserId")
 
